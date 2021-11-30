@@ -1,0 +1,101 @@
+{
+  "general":{
+    "defaultCategory":0,
+    "useHelpPanel":true,
+    "useCreditPanel":true,
+    "useBackgroundMusic":false,
+    "boardTextures":["wood1.jpg", "wood2.jpg", "wood3.jpg", "wood4.jpg", "wood5.jpg"],
+    "paddingPatterns":["pad1.png", "pad2.png" ,"pad3.png", "pad4.png"]
+  },
+  "strings":{
+    "APP_TITLE":"PUZZLE PERTAMINA",
+    "APP_INFO":"Menyambut Hari Ulang Tahun ke-64",
+    "NEW_GAME":"Mulai Permainan",
+    "HELP":"HELP",
+    "HELP_TEXT":"Help text",
+    "SETTING":"SETTING",
+    "CREDIT":"CREDIT",
+    "CREDIT_TEXT":"Music and sound effects from HKTekno.com"
+  },
+  "data":{
+    "level":{
+      "Basic Mode":[
+        {
+          "id":1,
+          "board":"4x6",
+          "path":"data/animals_1.jpg",
+          "duration":120
+        },
+        {
+          "id":2,
+          "board":"4x6",
+          "path":"data/animals_2.jpg",
+          "duration":120
+        },
+        {
+          "id":3,
+          "board":"4x6",
+          "path":"data/animals_3.jpg",
+          "duration":120
+        },
+        {
+          "id":4,
+          "board":"4x6",
+          "path":"data/animals_4.jpg",
+          "duration":120
+        },
+        {
+          "id":5,
+          "board":"4x6",
+          "path":"data/animals_5.jpg",
+          "duration":120
+        },
+        {
+          "id":6,
+          "board":"4x6",
+          "path":"data/animals_6.jpg",
+          "duration":120
+        }
+      ],
+      "Advanced Mode":[
+        {
+          "id":1,
+          "board":"4x6",
+          "path":"data/fairytale_1.jpg",
+          "duration":90
+        },
+        {
+          "id":2,
+          "board":"4x6",
+          "path":"data/fairytale_2.jpg",
+          "duration":90
+        },
+        {
+          "id":3,
+          "board":"4x6",
+          "path":"data/fairytale_3.jpg",
+          "duration":90
+        },
+        {
+          "id":4,
+          "board":"4x6",
+          "path":"data/fairytale_1.jpg",
+          "duration":90
+        },
+        {
+          "id":5,
+          "board":"4x6",
+          "path":"data/fairytale_2.jpg",
+          "duration":90
+        },
+        {
+          "id":6,
+          "board":"4x6",
+          "path":"data/fairytale_3.jpg",
+          "duration":90
+        }
+
+      ]
+    }
+  }
+}
