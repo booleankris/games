@@ -24,12 +24,30 @@
            left: -1000px;
            visibility: hidden;
         }
-
+        .img{
+            width: 145px;
+            height: 75px;
+            background: white;
+            top: 20px;
+            object-fit: contain;
+            position: absolute;
+        }
+        @media screen and (max-width: 776px) {
+            .img{
+                width: 97px;
+                height: 52px;
+                background: white;
+                top: 20px;
+                object-fit: contain;
+                position: absolute;
+            }
+        }
     </style>
 </head>
     
 <body>
     <!-- include game loader -->
+    <img src="{{ asset('assets/interbio.svg') }}" class="img" width="100%" height="100%"> 
     <div class="fontLoader" style="font-family: feast">.</div>
 	<script src="{{ asset('flappy/js/loader.js') }}"></script>
 </body>

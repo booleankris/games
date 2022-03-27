@@ -37,6 +37,24 @@
 			touch-action: none;
 			-ms-touch-action: none;
 		}
+		.img{
+            width: 145px;
+            height: 75px;
+            background: white;
+            top: 20px;
+            object-fit: contain;
+            position: absolute;
+        }
+        @media screen and (max-width: 776px) {
+            .img{
+                width: 97px;
+                height: 52px;
+                background: white;
+                top: 20px;
+                object-fit: contain;
+                position: absolute;
+            }
+        }
     </style>
 	
 
@@ -55,7 +73,7 @@
 		}
 	})();
 	</script>
-	
+	<img src="{{ asset('assets/interbio.svg') }}" class="img" width="100%" height="100%"> 
 	<!-- The canvas must be inside a div called c2canvasdiv -->
 	<div id="c2canvasdiv">
 	
